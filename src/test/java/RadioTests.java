@@ -1,5 +1,5 @@
 import org.testng.annotations.Test;
-import steps.RadioSteps;
+import Steps.RadioSteps;
 
 import static com.codeborne.selenide.Selenide.open;
 

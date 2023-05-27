@@ -1,9 +1,12 @@
-package steps;
+package Steps;
 
-import pages.RadioPage;
+
+import Pages.RadioPage;
+
 
 public class RadioSteps {
     RadioPage radioPage = new RadioPage();
+
     public void chooseFemale() {
         radioPage.optionFemale.click();
     }
